@@ -8,9 +8,9 @@ body{
 }
 
 :root {
-    --primary-color: #ffffff;
-    --secondary-color: #146829;
-    --accent1-color: #34AD55;
+    --primary-color: #029929;
+    --secondary-color:#FFFFFF;
+    --accent1-color: #F1F9F3;
     --accent2-color: #019729;
   
     --heading-font: 'outfit', serif;
@@ -26,6 +26,8 @@ body{
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
+
+
 
   header {
     padding: 20px;
