@@ -9,8 +9,8 @@ body{
 
 :root {
     --primary-color: #029929;
-    --secondary-color:#FFFFFF;
-    --accent1-color: #F1F9F3;
+    --secondary-color:#E2DEDE;
+    --accent1-color: #34AD55;
     --accent2-color: #019729;
   
     --heading-font: 'outfit', serif;
@@ -24,14 +24,14 @@ body{
 
   h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
+  color: var(--accent2-color);
 }
 
 
 
   header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
   }
 
   p {
