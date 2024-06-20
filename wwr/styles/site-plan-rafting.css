@@ -8,8 +8,8 @@ body{
 }
 
 :root {
-    --primary-color: #029929;
-    --secondary-color: #F1F9F3;
+    --primary-color: #ffffff;
+    --secondary-color: #146829;
     --accent1-color: #34AD55;
     --accent2-color: #019729;
   
@@ -17,10 +17,15 @@ body{
     --paragraph-font: 'poppins', serif;
   
     --nav-background-color: #34AD55;
-    --nav-link-color: #000000;
+    --nav-link-color: #ffffff;
     --nav-hover-link-color: #ffffff;
     --nav-hover-background-color: #019729;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
 
   header {
     padding: 20px;
