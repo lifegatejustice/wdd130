@@ -23,12 +23,13 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    margin-top: 65px;
 }
 
 aside h2 {
     position: absolute;
     top: 47px;
-    left: 150px;
+    left: 130px;
   }
 
 main img {
@@ -47,7 +48,9 @@ nav a {
 p { padding: 0;}
 
 h1{
-    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #029929;
 }
 
 img {
@@ -72,8 +75,13 @@ footer {
 /* Class Selectors */
 .box{
     margin: 1rem;
-    border: 1px solid green;
+    border: 1px ;
     padding: 1rem;
-    background-color: #029929;
-    color: white;
+    background-color: #E2DEDE;
+    color: #019729;
+}
+
+hr {
+    border-top: 1px solid grey;
+    margin-left: 10px;
 }
