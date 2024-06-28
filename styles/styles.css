@@ -39,17 +39,17 @@ aside {
     position: relative;
 }
 
-aside img {
-    width: 200px;
-    height: auto;
-    margin-top: 65px;
-}
-
 aside h2 {
     position: absolute;
     top: 47px;
     left: 130px;
   }
+
+aside img {
+    width: 200px;
+    height: auto;
+    margin-top: 65px;
+}
 
 main img {
     width: 150px;
