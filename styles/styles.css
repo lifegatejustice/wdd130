@@ -39,27 +39,16 @@ aside {
     position: relative;
 }
 
+aside img {
+    width: 200px;
+    height: auto;
+    margin-top: 65px;
+}
+
 aside h2 {
     position: absolute;
     top: 47px;
     left: 130px;
-<<<<<<< HEAD
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-    margin-top: 65px;
-}
-
-=======
-  }
->>>>>>> f4c9915b63274a2e8a2359dbb0423c1fc7df2fb8
-
-aside img {
-    width: 200px;
-    height: auto;
-    margin-top: 65px;
 }
 
 main img {
