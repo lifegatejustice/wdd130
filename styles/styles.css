@@ -31,9 +31,17 @@ nav {
 }
 
 main{
-    display: grid;
     grid-column: 2/3;
     margin: 1rem;
+
+}
+
+.mainl{
+    border-bottom: 2px solid #029929;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    
+
 }
 
 aside {
@@ -59,10 +67,10 @@ aside h2 {
   }
 
 main img {
+    justify-self: end;
     width: 150px;
     height: auto;
     float: right;
-    margin-left: 200px;
     padding: 2px;
     margin: 0 0 1rem 1rem;
     box-shadow: 0 0 30px gray;
@@ -97,7 +105,6 @@ img {
 }
 
 p {
-    padding: 10px;
     margin: 1rem;
 }
 
