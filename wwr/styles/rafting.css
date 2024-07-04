@@ -28,8 +28,39 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 header {
-    background-color: white;
-    padding: 10px 0;
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	
+}
+
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+    justify-self: end;
+}
+
+.navigation a {
+	display: block;
+	color: var(--accent1-color);
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: var(--primary-color);
+	font-weight: 700;
+	text-decoration: underline;
 }
 
 .hero {
@@ -41,7 +72,7 @@ header {
 .hero-img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 500px;
     
 }
 
@@ -94,7 +125,7 @@ footer p {
 }
 
 footer a {
-    text-decoration: none; /* Remove underline from social media links */
+    text-decoration: none; 
     margin: 0 5px;
 }
 
@@ -107,4 +138,40 @@ footer a img {
     float: right;
     width: 300px;
     height: auto;
+}
+
+header, .grid, footer {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+.h2one{
+    text-align: center;
+    
+}
+
+.history{
+    display: flex;
+    justify-content: space-around;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    margin: auto;
+  }
+  
+  figcaption {
+    display: flex;
+    background-color: #222;
+    color: #fff;
+    padding: 3px;
+    align-items: flex-end;
+  }
+  
+figure img{
+  max-width: 220px;
+  max-height: 150px;
 }
