@@ -72,7 +72,6 @@ nav {
 .hero {
     position: relative;
     color: white;
-    text-align: center;
 }
 
 .hero img {
@@ -95,17 +94,17 @@ nav {
     top: 30%;
     left: 8%;
     background-color: rgba(0, 0, 255, 0.5);
-    padding: 2px;
+    padding: 12px;
     color: white;
     max-width: 800px;
-    margin: 0 auto;
     
 }
 
 .hero article img{
     float: right;
     width: 220px;
-    height: 150px;
+    height: 190px;
+    padding-left: 2px;
 }
 
 .float-right {
