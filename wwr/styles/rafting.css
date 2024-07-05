@@ -5,6 +5,7 @@ body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 :root {
@@ -37,7 +38,7 @@ header {
 }
 
 header img{
-    right: 500px;
+    grid-column: 2/3;
 }
 
 nav {
@@ -47,7 +48,6 @@ nav {
 .navigation {
 	display: flex;
 	list-style: none;
-    margin-left: 150px;
     
 }
 
@@ -83,21 +83,22 @@ nav {
 
 .hero h1 {
     position: absolute;
-    top: 3%;
-    left: 26%;
+    top: 5%;
+    left: 20%;
     font-size: 3em;
-    margin: 0;
+    margin: 0 auto;
     color: var(--primary-color);
 }
 
 .hero article {
     position: absolute;
     top: 30%;
-    left: 19%;
+    left: 8%;
     background-color: rgba(0, 0, 255, 0.5);
     padding: 2px;
     color: white;
     max-width: 800px;
+    margin: 0 aut0;
     
 }
 
@@ -124,6 +125,7 @@ section h2 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
     text-align: center;
+    margin: 0 aut0;
 }
 
 footer {
@@ -131,12 +133,17 @@ footer {
     display: flex;
     align-content: center;
     text-align: center;
-    padding: 20px 0;
+    margin-top: 100px;
+    border-top: 1px solid ;
+    margin: 0 aut0;
+    
+
     
 }
 
 footer p {
-    margin: 10px 0;
+    
+    margin: 60px 0;
     margin-left: 150px;
 }
 
@@ -153,6 +160,8 @@ footer a img {
 
 .sociallinks{
     display: flex;
+    margin-top: 53px;
+    margin-left: 50px;
     gap: 10px;
 }
 
@@ -177,6 +186,11 @@ header, .grid, footer {
     justify-content: space-around;
 }
 
+figure{
+    display: flex;
+    justify-content: space-around;
+}
+
 .figure1 {
     border: thin #c0c0c0 solid;
     margin-right: 10px;
@@ -186,6 +200,7 @@ header, .grid, footer {
     margin: auto;
     justify-content: space-around;
     max-width: 214px;
+    margin-bottom: 30px;
   }
 
   .figure2 {
@@ -239,10 +254,11 @@ header, .grid, footer {
     color: #fff;
     padding: 3px;
     align-items: flex-end;
-    max-width: 214px;
+    max-width: 160px;
+    text-align: center;
   }
   
 figure img{
-  max-width: 220px;
-  max-height: 150px;
+  max-width: 166px;
+  max-height: 120px;
 }
