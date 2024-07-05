@@ -98,7 +98,7 @@ nav {
     padding: 2px;
     color: white;
     max-width: 800px;
-    margin: 0 aut0;
+    margin: 0 auto;
     
 }
 
@@ -125,7 +125,7 @@ section h2 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
     text-align: center;
-    margin: 0 aut0;
+    margin: 0 auto;
 }
 
 footer {
@@ -135,7 +135,7 @@ footer {
     text-align: center;
     margin-top: 100px;
     border-top: 1px solid ;
-    margin: 0 aut0;
+    margin: 0 auto;
     
 
     
@@ -201,6 +201,7 @@ figure{
     justify-content: space-around;
     max-width: 214px;
     margin-bottom: 30px;
+    margin-top: 30px;
   }
 
   .figure2 {
