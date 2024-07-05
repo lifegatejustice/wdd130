@@ -36,6 +36,10 @@ header {
 	
 }
 
+header img{
+    right: 500px;
+}
+
 nav {
 	text-align: right;
 }
@@ -43,11 +47,13 @@ nav {
 .navigation {
 	display: flex;
 	list-style: none;
+    margin-left: 150px;
+    
 }
 
 .navigation li {
 	flex: 1 1 100%;
-    justify-self: end;
+    
 }
 
 .navigation a {
@@ -69,17 +75,16 @@ nav {
     text-align: center;
 }
 
-.hero-img {
-    display: block;
-    width: 100%;
-    height: 500px;
+.hero img {
+    height: 350px;
+    width: 960px;
     
 }
 
 .hero h1 {
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 3%;
+    left: 26%;
     font-size: 3em;
     margin: 0;
     color: var(--primary-color);
@@ -87,13 +92,19 @@ nav {
 
 .hero article {
     position: absolute;
-    top: 40%;
-    left: 8%;
+    top: 30%;
+    left: 19%;
     background-color: rgba(0, 0, 255, 0.5);
     padding: 2px;
     color: white;
     max-width: 800px;
-    float: left;
+    
+}
+
+.hero article img{
+    float: right;
+    width: 220px;
+    height: 150px;
 }
 
 .float-right {
@@ -112,26 +123,37 @@ section {
 section h2 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
+    text-align: center;
 }
 
 footer {
     background-color: white;
+    display: flex;
+    align-content: center;
     text-align: center;
     padding: 20px 0;
+    
 }
 
 footer p {
     margin: 10px 0;
+    margin-left: 150px;
 }
 
 footer a {
     text-decoration: none; 
-    margin: 0 5px;
+    margin:  5px;
+    
 }
 
 footer a img {
     width: 24px;
     height: 24px;
+}
+
+.sociallinks{
+    display: flex;
+    gap: 10px;
 }
 
 .img{
@@ -141,7 +163,7 @@ footer a img {
 }
 
 header, .grid, footer {
-    max-width: 200px;
+    max-width: 840px;
     margin: 0 auto;
   }
 
@@ -155,20 +177,69 @@ header, .grid, footer {
     justify-content: space-around;
 }
 
-figure {
+.figure1 {
     border: thin #c0c0c0 solid;
-    display: flex;
+    margin-right: 10px;
+    display: inline-flex;
     flex-flow: column;
     padding: 10px;
     margin: auto;
+    justify-content: space-around;
+    max-width: 214px;
+  }
+
+  .figure2 {
+    border: thin #c0c0c0 solid;
+    margin-right: 10px;
+    display: inline-flex;
+    flex-flow: column;
+    padding: 10px;
+    margin: auto;
+    justify-content: space-around;
+    max-width: 214px;
+  }
+
+  .figure3 {
+    border: thin #c0c0c0 solid;
+    margin-right: 10px;
+    display: inline-flex;
+    flex-flow: column;
+    padding: 10px;
+    margin: auto;
+    justify-content: space-around;
+    max-width: 214px;
   }
   
+  .figure4 {
+    border: thin #c0c0c0 solid;
+    margin-right: 10px;
+    display: inline-flex;
+    flex-flow: column;
+    padding: 10px;
+    margin: auto;
+    justify-content: space-around;
+    max-width: 214px;
+  }
+
+  .figure5 {
+    border: thin #c0c0c0 solid;
+    margin-right: 10px;
+    display: inline-flex;
+    flex-flow: column;
+    padding: 10px;
+    margin: auto;
+    justify-content: space-around;
+    max-width: 214px;
+  }
+
+
   figcaption {
     display: flex;
     background-color: #222;
     color: #fff;
     padding: 3px;
     align-items: flex-end;
+    max-width: 214px;
   }
   
 figure img{
