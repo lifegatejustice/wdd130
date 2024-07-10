@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | HTML Form - User Poll</title>
+  <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+<header>
+  <h1>WDD 130 | Lifegate Justice | HTML Form - User Poll</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+          <legend>Contact Information</legend>
+          <div class="form-item1">
+          <div class="form-item2">
+          <label>Full Name: <input type="text" name="fullname"></label></div>
+          <div class="form-item">
+          <label>Email: <input type="email" name="useremail"></label></div>
+          </div>
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+            <div class="column1">
+            <label>What is your Favourite Internet Browse? 
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+                </label></div>
+            <div class="column1"><label>Do you have a household pet? <input type="checkbox" id="pet" name="pet"> </label></div>
+            <div class="column2"><label>List the places you have lived: <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea></label></div>
+        </fieldset>
+        <button type="submit">Submit Poll</button>
+      
+      </form>
+  </main>
+<footer>
+  <p>©2024 | HTML Form - User Poll Activity | Your Name</p>
+</footer>
+</body>
+</html>
