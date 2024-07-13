@@ -174,9 +174,11 @@ header, .grid, footer {
     justify-content: space-around;
 }
 
-figure {
+.figures {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .figure1, .figure2, .figure3, .figure4, .figure5 {
@@ -185,7 +187,7 @@ figure {
     display: inline-flex;
     flex-flow: column;
     padding: 10px;
-    margin: auto;
+    margin: 0 auto;
     justify-content: space-around;
     max-width: 214px;
     margin-bottom: 30px;
@@ -197,9 +199,8 @@ figcaption {
     background-color: #222;
     color: #fff;
     padding: 3px;
-    align-items: flex-end;
-    max-width: 160px;
     text-align: center;
+    width: 100%;
 }
 
 figure img {
