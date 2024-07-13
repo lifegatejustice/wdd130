@@ -322,8 +322,10 @@ button:hover {
     margin: 0.5rem 0;
 }
 
-.contact h1{
+.head{
     text-align: left;
+    color: var(--accent2-color);
+    font-size: large;
 }
 
 .aboutall{
