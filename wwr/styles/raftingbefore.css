@@ -9,19 +9,19 @@ body {
 }
 
 :root {
-    --primary-color: #004d1a;
+    --primary-color: #00b33c;
     --secondary-color: #E2DEDE;
-    --accent1-color: #003311;
-    --accent2-color: #006622; 
+    --accent1-color: #007b22;
+    --accent2-color: #009a36;
+
     --heading-font: 'outfit', serif;
     --paragraph-font: 'poppins', serif;
 
-    --nav-background-color: #003311; 
+    --nav-background-color: #00631a;
     --nav-link-color: #ffffff;
     --nav-hover-link-color: #ffffff;
-    --nav-hover-background-color: #006622; 
+    --nav-hover-background-color: #009a36;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -89,8 +89,7 @@ nav {
     position: absolute;
     top: 30%;
     left: 8%;
-    background-color: rgba(0, 51, 17, 0.8);
-    border-radius: 10px;
+    background-color: rgba(8, 94, 5, 0.5);
     padding: 12px;
     color: white;
     max-width: 800px;
@@ -176,183 +175,35 @@ header, .grid, footer {
 }
 
 .figures {
-    padding: 10px;
     display: flex;
-    align-items: center;
     justify-content: space-around;
-
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .figure1, .figure2, .figure3, .figure4, .figure5 {
     border: thin #c0c0c0 solid;
-    border-radius: 10px;
+    margin-right: 10px;
     display: inline-flex;
-    flex-direction: column;
+    flex-flow: column;
     padding: 10px;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
     max-width: 214px;
     margin-bottom: 30px;
     margin-top: 30px;
-    width: 100%;
-    
 }
 
 figcaption {
     display: flex;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     background-color: #222;
     color: #fff;
     padding: 3px;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    width: 97%;
+    width: 100%;
 }
 
 figure img {
-    max-width: 100%;
-    max-height: 200px;
-    width: auto;
-    height: auto;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    
-}
-
-
-form {
-    width: 650px;
-    margin: 0 auto;
-    padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    background-color: #eee;
-    display: grid;
-    font-size: 17px;
-    margin-bottom: 50px;
-  }
-
-fieldset {
-    display: grid;
-    grid-gap: .5rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 2rem;
-  }
-
-legend {
-    padding: 0.5rem;
-    color: #007b22;
-    font-size: 1.3em;
-    
-  }
-
-label, input, button, select, textarea {
-    font-family: outfit, Arial, sans-serif;
-    
-  }
-
-label {
-    text-align: left;
-    padding-right: 1rem;
-  }
-
-input, select, textarea {
-    padding: .5rem;
-    font-size: 1.1rem;
-    margin-top: 10px;
-  }
-
-input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
-  }
-
-
-  button {
-    margin: 1rem;
-    background-color: #007b22;
-    color: #fff;
-    border: none;
-    border-radius: .5rem;
-    padding: .75rem;
-    font-size: 1.2rem;
-  }
-  
-button:hover {
-    background-color: darkgreen;
-  }
-
-
-  textarea {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-.contact{
-    float: left;
-    display: flex;
-    flex-flow: column;
-    flex: 1;
-    justify-content: space-evenly;
-    text-align: left;
-    padding: 20px;
-    border: 1px solid #777;
-    border-radius: 10px;
-    background-color: #d8d3d3;
-    
-}
-
-.address{
-    padding: 10px;
-    margin: 0.5rem 0;
-}
-
-.phone{
-    padding: 10px;
-    margin: 0.5rem 0;
-}
-
-.email{
-    padding: 10px;
-    margin: 0.5rem 0;
-}
-
-.head{
-    text-align: left;
-    color: var(--accent2-color);
-    font-size: large;
-}
-
-.aboutall{
-    display: flex;
-    flex-direction: column;
-    
-    
-
-}
-
-.iframe{
-    flex: 2;
-    float: right;
-    justify-content: flex-end;
-
-}
-
-.reach{
-    position: relative;
-    bottom: 50%;
-    left: 30%;
-    font-size: 3em;
-    margin: 0 auto;
-    color: aliceblue;
-}
-
-
-.hero article p{
-    text-align: center;
-    padding: 10px;
+    max-width: 166px;
+    max-height: 120px;
 }
