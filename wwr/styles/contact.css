@@ -9,19 +9,19 @@ body {
 }
 
 :root {
-    --primary-color: #00b33c;
+    --primary-color: #004d1a;
     --secondary-color: #E2DEDE;
-    --accent1-color: #007b22;
-    --accent2-color: #009a36;
-
+    --accent1-color: #003311;
+    --accent2-color: #006622; 
     --heading-font: 'outfit', serif;
     --paragraph-font: 'poppins', serif;
 
-    --nav-background-color: #00631a;
+    --nav-background-color: #003311; 
     --nav-link-color: #ffffff;
     --nav-hover-link-color: #ffffff;
-    --nav-hover-background-color: #009a36;
+    --nav-hover-background-color: #006622; 
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -89,7 +89,8 @@ nav {
     position: absolute;
     top: 30%;
     left: 8%;
-    background-color: rgba(8, 94, 5, 0.5);
+    background-color: rgba(0, 51, 17, 0.8);
+    border-radius: 10px;
     padding: 12px;
     color: white;
     max-width: 800px;
@@ -174,48 +175,52 @@ header, .grid, footer {
     justify-content: space-around;
 }
 
-figure {
-    display: grid;
-    grid-column: span;
-    justify-content: f;
+.figures {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
 .figure1, .figure2, .figure3, .figure4, .figure5 {
     border: thin #c0c0c0 solid;
-    margin-right: 10px;
-    display: inline-grid;
-    grid-template-columns: 20% 20% 20% ;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-direction: column;
     padding: 10px;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     max-width: 214px;
     margin-bottom: 30px;
     margin-top: 30px;
-    align-items: center;
+    width: 100%;
+    
 }
 
 figcaption {
     display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: #222;
     color: #fff;
     padding: 3px;
-    max-width: 200px;
-    text-align: center;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 97%;
 }
 
 figure img {
-    max-width: 200px;
-    max-height: 120px;
-    justify-content: center
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
 }
 
-
-h1 {
-    margin: 1rem;
-    font-size: 1.5em;
-    color: #007b22;
-    text-align: center;
-  }
 
 form {
     width: 650px;
@@ -226,6 +231,7 @@ form {
     background-color: #eee;
     display: grid;
     font-size: 17px;
+    margin-bottom: 50px;
   }
 
 fieldset {
@@ -233,7 +239,7 @@ fieldset {
     grid-gap: .5rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
+    padding: 2rem;
   }
 
 legend {
@@ -254,7 +260,7 @@ label {
   }
 
 input, select, textarea {
-    padding: 0.5rem;
+    padding: .5rem;
     font-size: 1.1rem;
     margin-top: 10px;
   }
@@ -280,70 +286,18 @@ button:hover {
     background-color: darkgreen;
   }
 
-footer {
-    margin: 1rem auto 0;
-    width: 800px;
-    text-align: center;
-    font-size: 0.8em;
-    color: #777;
-    border-top: 1px solid #ccc;
-  }
 
-.form-item1 {
-    display: grid;
-    align-items: center;
-    margin-top: 10px;
-    
-  }
-
-.form-item2 {
-    display: grid;
-    align-items: center;
-    margin-bottom: 30px;
-    margin-top: 10px;
-    
-  }
-
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-    text-align: left;
-  }
-
-.column2 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-    text-align: left;
-  }
-
-.b1{
-    color: #007b22;
-}
-
-.b2{
-    color: #007b22;
-}
-
-.b3{
-    color: #007b22;
-}
-
-.b4{
-    color: #007b22;
-}
-
-
-
-
-textarea {
+  textarea {
     width: 100%;
     margin-top: 10px;
   }
 
 .contact{
     float: left;
-    display: inline-flex;
+    display: flex;
     flex-flow: column;
+    flex: 1;
+    justify-content: space-evenly;
     align-items: left;
     text-align: left;
     padding: 20px;
@@ -373,20 +327,31 @@ textarea {
 }
 
 .aboutall{
-    display: inline-grid;
-    grid-direction: column;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    
+    
+
 }
 
 .iframe{
-    width: 492px;
-    height: 400px;
-    background: #EDF0F4;
-    display: inline-grid;
-    grid-auto-columns: auto;
-    grid-template-columns: 2/2;
-    bottom: 450px;
-    left: 440px;
-    
+    flex: 2;
+    float: right;
+    justify-content: flex-end;
+
 }
 
+.reach{
+    position: relative;
+    bottom: 50%;
+    left: 30%;
+    font-size: 3em;
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+
+.hero article p{
+    text-align: center;
+    padding: 10px;
+}
