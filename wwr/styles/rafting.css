@@ -202,6 +202,7 @@ header, .grid, footer {
     margin-top: 30px;
     width: 100%;
     text-align: center;
+    text-align: center;
     
 }
 
@@ -217,6 +218,8 @@ figcaption {
     align-items: center;
     text-align: center;
     width: 100%;
+    text-align: center;
+    padding-top: 15px;
 }
 
 figcaption a{
@@ -226,6 +229,7 @@ figcaption a{
     margin-top: 20px;
     color: var(--secondary-color);
     font-size: larger;
+    text-align: center;
     
 }
 
@@ -236,6 +240,62 @@ figure img {
     height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    
+}
+
+
+.figures {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+.aboutfigure1, .aboutfigure2, .aboutfigure3, .aboutfigure4, .aboutfigure5 {
+    border: thin #c0c0c0 solid;
+    margin-right: 10px;
+    display: inline-flex;
+    flex-flow: column;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: space-around;
+    max-width: 214px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+}
+
+
+.aboutfigure figcaption {
+    display: flex;
+    background-color: #222;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    width: 160px;
+}
+
+.aboutfigure figcaption a{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 20px;
+    color: var(--secondary-color);
+    font-size: larger;
+    
+}
+
+.aboutfigure img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 166px;
+    max-height: 107px;
     
 }
 
@@ -371,6 +431,9 @@ textarea {
     color: aliceblue;
 }
 
+span .abouth{
+    color: white;
+}
 
 .hero article p{
     text-align: center;
@@ -631,4 +694,124 @@ caption {
 .tableh{
     text-align: center;
     margin-bottom: 40px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+.content-grid article {
+    background: #d6d5d5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.content-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.experience{
+    color: white;
+    font-size: large;
+}
+
+.homehero {
+    position: relative;
+    color: white;
+}
+
+
+.homehero img {
+    height: 350px;
+    width: 960px;
+}
+
+.homehero h1 {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    font-size: 3em;
+    margin: 0 auto;
+    color: var(--secondary-color);
+}
+
+.homehero article {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    background-color: rgba(0, 51, 17, 0.8);
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    padding-bottom: 20px;
+    color: white;
+    max-width: 800px;
+    max-height: 200px;
+}
+
+.homehero article img {
+    float: right;
+    width: 220px;
+    height: 190px;
+    padding-left: 2px;
+}
+
+.homehero article p{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.homehero article a{
+    margin-top: 5px;
+}
+
+.homehero article h2{
+    color: white;
+    text-align: center;
+}
+
+.homebutton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--accent2-color);
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    width: 80%;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 45px;
+}
+
+.homebutton:hover {
+    background-color: var(--secondary-color);
+    color: #003311;
+    border-radius: 10px;
+}
+
+.offerings img{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.adventure img{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.form-adventure h2{
+    text-align: center;
+}
+
+.form-adventure p{
+    text-align: center;
 }
