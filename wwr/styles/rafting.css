@@ -763,8 +763,11 @@ caption {
     height: auto;
 }
 
-.adventure{
+.adventure {
     max-height: 400px;
+}
+
+.adventure p{
     font-style: italic;
 }
 
