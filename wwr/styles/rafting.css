@@ -698,7 +698,7 @@ caption {
 
 .content-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
     gap: 20px;
     padding: 20px;
     padding-top: 100px;
@@ -714,6 +714,11 @@ caption {
 .content-grid img {
     width: 100%;
     height: auto;
+}
+
+.adventure{
+    max-height: 400px;
+    font-style: italic;
 }
 
 .experience{
